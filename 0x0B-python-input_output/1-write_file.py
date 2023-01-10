@@ -4,8 +4,5 @@
 
 def write_file(filename="", text=""):
     """Function that writes into a file and create the file if not existing, returning the num of char."""
-    lines = 0
     with open(filename, mode="w", encoding="utf8") as file:
-        for line in file:
-            lines += 1
-    return lines
+        return file.write(text)
