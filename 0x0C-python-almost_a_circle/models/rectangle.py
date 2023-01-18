@@ -20,5 +20,10 @@ class Rectangle(Base):
         self.height = height
         self.x = x
         self.y = y
+    
+    @property
+    def width(self):
+        """Set/get the width of the Rectangle."""
+        return self.__width
 
 
