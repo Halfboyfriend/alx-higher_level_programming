@@ -1,4 +1,4 @@
-#!/usr/bin/node
+#!/usr/bin/python3
 import sys
 import MySQLdb
 

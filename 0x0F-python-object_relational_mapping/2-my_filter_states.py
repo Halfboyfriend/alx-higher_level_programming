@@ -1,1 +1,1 @@
-#!/usr/bin/node
+#!/usr/bin/python3
