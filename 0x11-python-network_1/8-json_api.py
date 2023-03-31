@@ -11,7 +11,6 @@ if __name__ == "__main__":
     load = {"q": arg}
 
     response = requests.post(url="http://0.0.0.0:5000/search_user", data=arg)
-
     try:
         data = response.json()
         if data == {}:
